@@ -5,7 +5,6 @@ Funcoes.ExibirTelaInicial();
 
 while (Funcoes.Pontuacao < 100)
 {
-    Console.Clear();
     Funcoes.ApertarBotao();
     Funcoes.ExibirTelaInicial();
 }

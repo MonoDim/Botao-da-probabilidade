@@ -79,5 +79,6 @@ internal class Funcoes
         {
             Pontuacao = 0;
         }
+        Console.Clear();
     }
 }
