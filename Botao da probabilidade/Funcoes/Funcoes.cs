@@ -79,6 +79,42 @@ internal class Funcoes
         {
             Pontuacao = 0;
         }
+    }
+
+    public static void ExibirTelaJogo()
+    {
         Console.Clear();
+        Console.WriteLine($@"
+                            @@@@@@@@@@@@@@@@@@                            
+                        @@@@                  @@@@                        
+                     @@@                          @@@                    
+                  @@@                                @@@                  
+                 @@                                    @@                
+               @@                                        @@               
+              @@                                          @@              
+             @@                                             @@            
+            @@                                               @@          
+           @@                                                 @@          
+           @@                                                 @@           
+          @@                                                   @@         
+          @@                Pressione 'Espaço'                 @@         
+          @@               para apertar o botão                @@         
+          @@                                                   @@         
+          @@               Pontuação Máxima: {PontuacaoMaxima.ToString().PadLeft(3)}               @@         
+          @@               Pontuação Atual:  {Pontuacao.ToString().PadLeft(3)}               @@         
+          @@                                                   @@         
+           @@                                                 @@          
+           @@                                                 @@          
+            @@                                               @@          
+             @@                                             @@            
+              @@                                           @@            
+               @@                                        @@@              
+                @@@                                     @@                
+                  @@@                                @@@                  
+                    @@@@                           @@@                    
+                       @@@@                    @@@@                       
+                          @@@@@@@@@@@@@@@@@@@@@@                          
+                                   @@@@                                  
+        ");
     }
 }

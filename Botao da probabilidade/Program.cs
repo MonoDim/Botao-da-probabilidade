@@ -6,7 +6,7 @@ Funcoes.ExibirTelaInicial();
 while (Funcoes.Pontuacao < 100)
 {
     Funcoes.ApertarBotao();
-    Funcoes.ExibirTelaInicial();
+    Funcoes.ExibirTelaJogo();
 }
 
 
