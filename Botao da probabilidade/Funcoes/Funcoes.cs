@@ -64,7 +64,6 @@ internal class Funcoes
     public static void ApertarBotao()
     {
         Console.ReadKey();
-
         int numeroAleatorio = new Random().Next(1, 101);
 
         if (Pontuacao < numeroAleatorio)
@@ -81,5 +80,4 @@ internal class Funcoes
             Pontuacao = 0;
         }
     }
-
 }
